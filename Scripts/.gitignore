@@ -1,0 +1,11 @@
+# Ignore Docker database data blocks
+.postgres_data/
+postgres_data/
+
+# Ignore large source datasets
+data/*.csv
+data/*.xls
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
